@@ -1,0 +1,17 @@
+{% extends "layout.njk" %}
+
+{% block title %}
+        <title>Rocketseat - {{course.course}} </title>
+{% endblock %}
+
+{% block content %}
+    <main>
+        <div class="course {{course.course}}">
+            <img src="/img/{{course.course_image}}" alt="">
+            <p>{{course.description}}</p>
+            <span>{{course.modules}}</span>
+            <span>{{course.price}}</span>
+            <span>Acesse <a href="https://www.rocketseat.com.br/{{course.course}}"> aqui</a></span>
+        </div>
+    <main>
+{% endblock %}
