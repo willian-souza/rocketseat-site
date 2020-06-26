@@ -3,7 +3,7 @@ module.exports = [
         id: 01,
         course: "starter",
         course_image: "starter.svg",
-        description: "<strong>Torne-se um programador desejado</strong><br> no mercado com esses cursos <br>gratuitos",
+        description: "<strong>Torne-se um programador desejado</strong> no mercado com esses <br> cursos gratuitos",
         modules: "5 módulos",
         price: "Gratuito"
     },
