@@ -22,21 +22,50 @@
 header{
     background-color:var(--color-black);
     width: 100%;
-    padding: 32px;
+    padding: 30px;
     text-align: center;
     font-size: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
-header a{
+header nav a{
     color: var(--color-white);
     margin-right: 30px;
     text-decoration: none;
 }
 
-header a:hover{
+header nav a:hover{
    border-bottom: 3px solid var(--color-white);
 }
+
+header .wrapper-social-networks{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .social-networks{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+header .social-networks:hover{
+    transition: 400ms;
+    transform: scale(1.1);
+}
+
+header .social-networks img{
+     width: 100%;
+}
+
+
 
 .content-index{
     width: 100%;
@@ -63,7 +92,7 @@ header a:hover{
 
 footer{
     width: 100%;
-    padding: 32px;
+    padding: 31px;
     background-color:var(--color-black);
     text-align: center;
     color: var(--color-white);
@@ -129,7 +158,6 @@ main .content img{
     display: flex;
     flex-direction: column;
     background-color: var(--color-white);
-    color: rgb(75, 75, 75);
     margin: 15px;
     padding: 10px;
 }
@@ -142,6 +170,9 @@ main .content img{
 
 .tecnologies ul li span{
     margin-top: -10px;
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+    
 }
 
 /* --------Content-------- */
@@ -272,6 +303,7 @@ main .content img{
 }
 
 .course .details{
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,6 +311,7 @@ main .content img{
 
 .course .details p{
     font-weight: normal;
+    line-height: 28px;
 }
 
 .course .details span{
