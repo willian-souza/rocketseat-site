@@ -23,14 +23,14 @@
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Conhecimentos adquiridos](#-conhecimentos-adquiridos)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
-- <a href="#-licença">Licença</a>
+- [Licença](#-licença)
 
 ---
 
 # 📄 Sobre
 
 Essa aplicação foi desenvolvida como desafio do módulo de introdução do **Bootcamp Launchabase** da **Rocketseat**.
-A aplicação consiste em fazer um site da empresa, onde são apresentados informações como contato (telefone, email), redes sociais e os cursos disponíveis.
+A aplicação consiste em fazer um site da empresa, onde são apresentados informações como contato (telefone, email), redes sociais e os cursos disponíveis. Os dados dos cursos são apresentados dinamicamente utilizando a ferramenta Nunjucks para fazer a integração do BackEnd com o FrontEnd.
 
 ---
 
