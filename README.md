@@ -72,6 +72,7 @@ A aplicação consiste em fazer um site da empresa, onde são apresentados infor
 
 # 📝Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
+
 ---
 
 Desenvolvido por [Willian dos Santos Souza](https://www.linkedin.com/in/willian-ssouza/)
