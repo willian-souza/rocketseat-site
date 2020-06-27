@@ -23,7 +23,7 @@
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Conhecimentos adquiridos](#-conhecimentos-adquiridos)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
-- [Licença](#-licença)
+- <a href="#-licença">Licença</a>
 
 ---
 
