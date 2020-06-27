@@ -10,7 +10,9 @@
     <a href="https://www.linkedin.com/in/willian-ssouza/">
         <img src="https://img.shields.io/badge/made%20by-Willian%20Souza-orange">
     </a>
+    <a href="https://github.com/willian-souza/rocketseat-site/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/license-MIT-orange">
+    </a>    
     <a href="https://frontend.code-inspector.com/public/project/9966/rocketseat-site/dashboard">
         <img src="https://img.shields.io/badge/Code%20Quality%20Score-100-orange">
     </a>
@@ -23,10 +25,12 @@
 - [Como baixar o projeto](#-como-baixar-o-projeto)
 - [Licença](#-licença)
 
+---
+
 # 📄 Sobre
 
 Essa aplicação foi desenvolvida como desafio do módulo de introdução do **Bootcamp Launchabase** da **Rocketseat**.
-A aplicação consiste em fazer uma apresentação da empresa, onde são apresentados dados como contato, redes sociais e os cursos disponíveis.
+A aplicação consiste em fazer um site da empresa, onde são apresentados informações como contato (telefone, email), redes sociais e os cursos disponíveis.
 
 ---
 
@@ -37,7 +41,6 @@ A aplicação consiste em fazer uma apresentação da empresa, onde são apresen
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 
 ## Back-End
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 - [NodeJS/ExpressJS](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introdu%C3%A7%C3%A3o)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 ---
@@ -48,15 +51,15 @@ A aplicação consiste em fazer uma apresentação da empresa, onde são apresen
 
 # 📦 Como baixar o projeto
 
-OBS: Para realizar os comandos abaixo é necessário ter o Node instalado na máquina.
+ OBS: Para realizar os procedimentos abaixo é necessário ter o [Git](https://git-scm.com/downloads) e o [Node](https://nodejs.org/en/download/) instalados na máquina.
 
 ```bash
 
     # Clonar o repositório
-    $ git clone https://github.com/willian-souza/casa-criativa
+    $ git clone https://github.com/willian-souza/rocketseat-site
 
     # Entrar no diretório baixado
-    $ cd casa-criativa
+    $ cd rocketseat-site
 
     # Instalar as dependências        
     $ npm install 
