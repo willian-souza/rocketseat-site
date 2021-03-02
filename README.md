@@ -4,6 +4,9 @@
 
 <h1>
     <img src="public/img/rocketseat.gif">
+    <h3 align="center"> 
+        Access the application here 👉 <a href="https://willian-souza.github.io/rocketseat-site/" target="_blank">Rocketseat<a>
+    <h3>
 <h1>
 
 <h1 align = "center">
@@ -18,23 +21,22 @@
     </a>
 <h1>
 
-# 📋 Índice
-- [Sobre](#-sobre)
-- [Tecnologias utilizadas](#-tecnologias-utilizadas)
-- [Conhecimentos adquiridos](#-conhecimentos-adquiridos)
-- [Como baixar o projeto](#-como-baixar-o-projeto)
-- [Licença](#-licença)
+# 📋 Index
+- [About](#-about)
+- [Technologies used](#-technologies-used)
+- [Download and run the project ](#-download-and-run-the-project)
+- [License](#-license)
 
 ---
 
-# 📄 Sobre
+# 📄 About
 
-Essa aplicação foi desenvolvida como desafio do módulo de introdução do **Bootcamp Launchabase** da **Rocketseat**.
-A aplicação consiste em fazer um site da empresa, onde são apresentados informações como contato (telefone, email), redes sociais e os cursos disponíveis. Os dados dos cursos são apresentados dinamicamente utilizando a ferramenta Nunjucks para fazer a integração do BackEnd com o FrontEnd.
+This application was developed as a challenge for the **Rocketseat Bootcamp Launchabase** introduction module.
+The application consists of making a company website, where information such as contact (phone, email), social networks and available courses are presented. Course data is presented dynamically using the Nunjucks tool to integrate BackEnd with FrontEnd
 
 ---
 
-# 🖥 Tecnologias utilizadas
+# 🖥 Technologies used
 ## Front-End
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Archive/CSS3)
@@ -45,34 +47,50 @@ A aplicação consiste em fazer um site da empresa, onde são apresentados infor
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 ---
 
-# ✍ Conhecimentos adquiridos
-- Apresentação de dados dinâmicos do BackEnd para o FrontEnd através do Nunjucks
----
 
-# 📦 Como baixar o projeto
+# 📦 Download and run the project
 
- OBS: Para realizar os procedimentos abaixo é necessário ter o [Git](https://git-scm.com/downloads) e o [Node](https://nodejs.org/en/download/) instalados na máquina.
+Note: To perform the procedures below on your terminal it is necessary to have [Git](https://git-scm.com/downloads) and [NodeJS](https://nodejs.org/en/) or [Yarn](https://yarnpkg.com/)  installed on the machine.
 
+### - With npm
 ```bash
 
-    # Clonar o repositório
+    # Clone the repository
     $ git clone https://github.com/willian-souza/rocketseat-site
 
-    # Entrar no diretório baixado
+    # Enter the downloaded directory
     $ cd rocketseat-site
 
-    # Instalar as dependências        
+    # Install all dependencies        
     $ npm install 
 
-    # Iniciar o projeto
-    $ npm start 
+    # Run the application
+    $ npm start
 
 ```
+### - With yarn
+```bash
+
+    # Clone the repository
+    $ git clone https://github.com/willian-souza/rocketseat-site
+
+    # Enter the downloaded directory
+    $ cd rocketseat-site
+
+    # Install all dependencies        
+    $ yarn
+
+    # Run the application
+    $ yarn start
+
+```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 ---
 
-# 📝Licença
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
+# 📝 License
+This project is under license MIT. See the archive [LICENSE](/LICENSE) for more details.
 
 ---
 
-Desenvolvido por [Willian dos Santos Souza](https://www.linkedin.com/in/willian-ssouza/)
+Developed by [Willian dos Santos Souza](https://www.linkedin.com/in/willian-ssouza/)
